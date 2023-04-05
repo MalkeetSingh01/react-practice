@@ -1,0 +1,13 @@
+.listStyle{
+    margin: 20px auto;
+    width: 40vw;
+    text-align: center;
+  }
+.liStyle{
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+  /* modular css code exported as a entire object so that classes and style remain loaclly refrenced to the import itself */
