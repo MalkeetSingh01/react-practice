@@ -7,7 +7,9 @@ import './App.css';
 // import ThemeToggle from './components/ContextChildrens/ThemeToggle';
 // import AuthContextProvider from './components/ContextApi/AuthContextProvider';
 // import List3 from './components/ContextChildrens/List3';
-import Uuid_State from './components/Hooks/Uuid_State';
+// import Uuid_State from './components/Hooks/Uuid_State';
+import AgeContextProvider from './components/Reducer/AgeContextProvider';
+import DispatchAge from './components/reducersFunction/DispatchAge';
 
 
 function App() {
@@ -22,7 +24,10 @@ function App() {
                 <List3/>
             </ThemeContextProvider>
           </AuthContextProvider> */}
-          <Uuid_State/>
+          {/* <Uuid_State/> */}
+          <AgeContextProvider>
+            <DispatchAge/>
+          </AgeContextProvider>
     </div>
   );
 }
